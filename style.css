@@ -162,6 +162,9 @@ ________________________
 
 .item1{
     background-color: rgb(255, 190, 225);
+    position: sticky;
+    top: 50px;
+    left: 50px;
 }
 
 .item2{
@@ -191,6 +194,39 @@ ________________________
     font-size: 25px;
 }
 
+.box__percent {
+width: 50%;
+}
+
+.box__pixels {
+width: 200px;
+}
+
+.box__vw {
+    width: 50vw;
+    }
+    .box__vh {
+    height: 20vh;
+    }
+
+        .font__1em {
+        font-size: 1em;
+        }
+        .font__1rem {
+        font-size: 1rem;
+        }
+        .font__100percent {
+        font-size: 100%;
+        }
+        .font__2em {
+            font-size: 2em;
+            }
+            .font__2rem {
+            font-size: 2rem;
+            }
+            .font__200percent {
+            font-size: 200%;
+            }
 
 /*
 ________________________
@@ -213,9 +249,15 @@ ________________________
     width: 90vw;
     margin-bottom: 50px;
     background-color: var(--primary-100);
+    
 }
-/* Extra small devices (phones, 600px and down) */
 
+/* Extra small devices (phones, 600px and down) */
+@media screen and (min-width: 700px) {
+    .media__container{
+    background-color: var(--primary-400);
+    }
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
